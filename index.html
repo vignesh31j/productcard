@@ -21,11 +21,17 @@
     }
 
     @media screen and (max-width: 375px) {
+      body {
+        background-color: hsl(30, 38%, 92%);
+        justify-items: center;
+        font-size: 14px;
+      }
+
       #container {
         display: grid;
         grid-template-rows: 2fr 1fr;
-        width: 400px;
-        height: 700px;
+        width: 340px;
+        height: 660px;
       }
 
       #perfume-img {
@@ -36,6 +42,7 @@
         background-image: url("./images/image-product-mobile.jpg");
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        height: 290px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -43,7 +50,8 @@
 
       #con-2 {
         display: grid;
-        padding: 30px;
+        padding: 20px;
+
         grid-row-gap: 15px;
       }
 
@@ -57,6 +65,15 @@
         font-size: 33px;
       }
 
+      #line {
+        line-height: 30px;
+        color: black;
+      }
+
+      #line2 {
+        line-height: 20px;
+      }
+
       #price-strick {
         margin-top: 10px;
         margin-left: 15px;
@@ -65,6 +82,11 @@
     }
 
     @media screen and (min-width: 376px) {
+      body {
+        background-color: hsl(30, 38%, 92%);
+        justify-items: center;
+        font-size: 17px;
+      }
 
       #container {
         display: grid;
@@ -84,6 +106,15 @@
         font-size: 40px;
       }
 
+      #line {
+        line-height: 40px;
+        color: black;
+      }
+
+      #line2 {
+        line-height: 30px;
+      }
+
       #price-strick {
         margin-top: 15px;
         margin-left: 20px;
@@ -91,15 +122,6 @@
       }
 
     }
-
-
-
-    body {
-      background-color: hsl(30, 38%, 92%);
-      justify-items: center;
-      font-size: 17px;
-    }
-
 
     #container {
       margin-top: 220px;
@@ -129,17 +151,6 @@
     .price {
       display: grid;
       grid-template-columns: 1fr 1fr;
-    }
-
-
-
-    #line {
-      line-height: 40px;
-      color: black;
-    }
-
-    #line2 {
-      line-height: 30px;
     }
 
     #per {
